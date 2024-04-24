@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "automatizacao"
+version = "0.1"
+description = "\"Projeto de automatização de  relatório e dashboard em Python\""
+authors = ["rafaelgouvea <rafael.gouveasouza@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+python-bcb = "^0.2.0"
+plotnine = "^0.13.4"
+pandas = "^2.2.2"
+jupyter = "^1.0.0"
+shiny = "^0.9.0"
+dbnomics = "^1.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
