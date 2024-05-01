@@ -30,5 +30,5 @@ dados_brutos.to_sql(name = "tbl_brutos",
                     if_exists = "replace", 
                     index = False)
 
-# Encerrar conexão SQL
+# Encerrar a conexão SQL
 conexao_sql.close()
